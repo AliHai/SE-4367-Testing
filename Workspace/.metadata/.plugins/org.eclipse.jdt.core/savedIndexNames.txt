@@ -1,3 +1,0 @@
-INDEX VERSION 1.126+C:\Users\Alex\Desktop\Screen-Cleaner\GitHub\SE-4367-Testing\Workspace\.metadata\.plugins\org.eclipse.jdt.core
-3271193799.index
-2340428461.index
