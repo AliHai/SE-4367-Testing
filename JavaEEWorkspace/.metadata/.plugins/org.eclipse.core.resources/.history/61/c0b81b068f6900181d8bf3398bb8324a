@@ -18,9 +18,10 @@ public class Model {
 	// these are the pipes to the mainDatabase
 	// keep this the same throughout the project
 	// this will allow parallel development on the Controllers without much re-work
+	private static final String jsFile = "C:/Users/Alex/Desktop/Screen-Cleaner/GitHub/SE-4367-Testing/Workspace/test/src/facts/facts.js";
+	private static final String xmlFile = "C:/Users/Alex/Desktop/Screen-Cleaner/GitHub/SE-4367-Testing/Workspace/test/WebContent/WEB-INF/data/facts.xml";
+	private static final String thisServlet = "http://localhost:8080/test/";
 
-	
-	private static final String xmlFile = "C:/Users/Alex/Desktop/SE-4367-Testing/JavaEEWorkspace/Test/WebContent/WEB-INF/data/facts.xml";
 	
 	protected static FactList FactHolder = new FactList();
 	protected static Fact FactBufferObject = new Fact();;
