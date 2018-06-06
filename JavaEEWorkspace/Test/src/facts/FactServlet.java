@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/*import quotes.Quote;
+import quotes.Quote;
 import quotes.QuoteList;
-import quotes.QuoteSaxParser;*/
+import quotes.QuoteSaxParser;
 
 /**
  * Servlet implementation class FactServlet

@@ -38,10 +38,10 @@ public class View {
 	   
 
 	   // constructors
-	   View (){
+/*	   View(){
 		   System.out.println("\nView constructor");
    
-	   }
+	   }*/
 	   // getters
 	   
 	   private void getView(){

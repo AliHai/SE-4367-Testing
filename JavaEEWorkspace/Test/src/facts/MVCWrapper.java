@@ -1,6 +1,6 @@
 package facts;
 
-// this file wraps the Model View Controller object instantiation for main to us
+// this file wraps the Model View Controller object instantiation for main to use
 
 import java.awt.Container;
 import java.awt.Insets;

@@ -24,3 +24,9 @@ Make sure workspace is useable after building from sourceto
 
 Keep large files out of the folder including:
 	Installation executables
+	
+Tomcat Link
+https://tomcat.apache.org/download-70.cgi
+	
+	Core
+		64-bit Windows zip (pgp, sha1, sha512)
