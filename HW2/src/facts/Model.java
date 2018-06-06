@@ -15,7 +15,7 @@ package facts;
 public class Model implements StringConstants {
 	
 	// static attributes
-	// these are the pipes to the mainDatabase
+	// these are the pipes to the FactHolder
 	// keep this the same throughout the project
 	// this will allow parallel development on the Controllers without much re-work
 
@@ -30,8 +30,7 @@ public class Model implements StringConstants {
 
    
 	// here you have as much freedom as you want, as far as how the Model chooses to store the data
-	// use any implementation you would like in the UserDatabase class
-	// keep this method signature static and the mainDatabase and UserBufferObject static
+	// keep this method signature static and the FactHolder and FactBufferObject static
 	// the way the Controller can manipulate them
 	
 	public static void addFact(){

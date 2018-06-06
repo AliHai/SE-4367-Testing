@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import quotes.Quote;
+/*import quotes.Quote;
 import quotes.QuoteList;
-import quotes.QuoteSaxParser;
+import quotes.QuoteSaxParser;*/
 
 /**
  * Servlet implementation class FactServlet
@@ -23,7 +23,7 @@ import quotes.QuoteSaxParser;
 
 public class FactServlet extends HttpServlet implements StringConstants{
 
-
+	static final long serialVersionUID = 0L;
 	private FactList list;
 
 	@Override

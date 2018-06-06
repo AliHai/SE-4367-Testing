@@ -33,23 +33,29 @@ https://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
 
 public class View {
 
-	   // attributes
-	   private View currentView;
-	   
-
-	   // constructors
-/*	   View(){
-		   System.out.println("\nView constructor");
+	// attributes
+	static final long serialVersionUID = 0L;	
+    private View currentView;
    
-	   }*/
-	   // getters
-	   
-	   private void getView(){
-	   }
-	   // setters
-	   
-	   private void setView(){
-	   }
-	   
+ // constructors
+    /*	   View(){
+    System.out.println("\nView constructor");
+
+    }*/
+    // getters
+
+    private void getView(){
+    }
+    // setters
+    protected static void setFactField(Fact f){
+    	String tempString = f.getText();
+    	MVCWrapper.factField.setText(tempString);
+    	
+    }
+
+    private void setView(){
+    }
+
+   
 
 }
