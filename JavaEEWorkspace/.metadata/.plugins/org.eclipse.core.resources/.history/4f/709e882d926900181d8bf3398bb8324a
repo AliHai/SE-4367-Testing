@@ -21,7 +21,7 @@ import quotes.QuoteSaxParser;*/
  */
 @WebServlet("/FactServlet")
 
-public class FactServlet extends HttpServlet implements StringConstants{
+public class FactServlet extends HttpServlet {
 
 
 	private FactList list;

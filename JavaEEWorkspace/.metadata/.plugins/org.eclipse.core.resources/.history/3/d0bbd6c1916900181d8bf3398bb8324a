@@ -21,9 +21,11 @@ import quotes.QuoteSaxParser;*/
  */
 @WebServlet("/FactServlet")
 
-public class FactServlet extends HttpServlet implements StringConstants{
+public class FactServlet extends HttpServlet {
 
-
+	private static final String jsFile = "C:/Users/Alex/Desktop/SE-4367-Testing/JavaEEWorkspace/Test/src/facts/facts.js";
+	private static final String xmlFile = "C:/Users/Alex/Desktop/SE-4367-Testing/JavaEEWorkspace/Test/WebContent/WEB-INF/data/facts.xml";
+	private static final String thisServlet = "http://localhost:8080/Test/";
 	private FactList list;
 
 	@Override

@@ -12,7 +12,7 @@ package facts;
 	https://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
 */
 
-public class Model implements StringConstants {
+public class Model {
 	
 	// static attributes
 	// these are the pipes to the mainDatabase

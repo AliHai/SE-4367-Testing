@@ -12,13 +12,15 @@ package facts;
 	https://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
 */
 
-public class Model implements StringConstants {
+public class Model {
 	
 	// static attributes
 	// these are the pipes to the mainDatabase
 	// keep this the same throughout the project
 	// this will allow parallel development on the Controllers without much re-work
 
+	
+	private static final String xmlFile = "C:/Users/Alex/Desktop/SE-4367-Testing/JavaEEWorkspace/Test/WebContent/WEB-INF/data/facts.xml";
 	
 	protected static FactList FactHolder = new FactList();
 	protected static Fact FactBufferObject = new Fact();;
