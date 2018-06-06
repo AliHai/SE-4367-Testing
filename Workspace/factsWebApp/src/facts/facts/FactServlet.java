@@ -23,8 +23,8 @@ import quotes.QuoteSaxParser;
 
 public class FactServlet extends HttpServlet {
 
-	private static final String jsFile = "/Users/mehra/Documents/EEworkspace/Test/src/facts/facts.js";
-	private static final String xmlFile = "/Users/mehra/Documents/EEworkspace/Test/WebContent/WEB-INF/data/facts.xml";
+	private static final String jsFile = "\Users\Alex\Desktop\Screen-Cleaner\GitHub\SE-4367-Testing\Workspace\factsWebApp\src\facts\facts.js";
+	private static final String xmlFile = "\Users\Alex\Desktop\Screen-Cleaner\GitHub\SE-4367-Testing\Workspace\factsWebApp\WebContent\WEB-INF\data\facts.xml";
 	private static final String thisServlet = "http://localhost:8080/Test/";
 	private FactList list;
 

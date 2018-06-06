@@ -1,0 +1,29 @@
+package facts;
+
+// this file wraps the Model View Controller object instantiation for main to us
+
+import java.awt.Container;
+import java.awt.Insets;
+import java.awt.Dimension;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MVCWrapper{
+	
+	
+	public static void main(String[] args) {
+		System.out.println("\nMain started.");
+		System.out.println("\nModel View Controller Wrapper will now instantiate GUI.");
+		Model myModel = new Model();
+		View myView  = new View();
+		Controller myController = new Controller();
+		
+		myController.setView(myView);
+		myController.setModel(myModel);
+		
+
+	    
+	} 	
+    
+}

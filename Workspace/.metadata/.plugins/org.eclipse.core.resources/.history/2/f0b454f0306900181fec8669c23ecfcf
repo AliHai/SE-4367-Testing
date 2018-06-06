@@ -1,0 +1,5 @@
+package facts.facts;
+
+public class FactsGUIController {
+
+}
