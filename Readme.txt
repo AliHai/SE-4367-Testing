@@ -13,17 +13,16 @@ Merge working branch into main branch after completion
 
 
 Folder Use:
-This folder is designed to hold all shared project files
+This folder is designed to hold ONLY NECESSARY project file
 Keep each project in it's own folder
 Document any and all steps needed to use each project
 Document all third party software needed to use each project
 Provide links and full descriptions of third party softwares, to ensure all members can build the project
-Make sure workspace is useable after building from sourceto
-	this will increase simplicity
 
 
 Keep large files out of the folder including:
 	Installation executables
+	Workspace files
 	
 Tomcat Link
 https://tomcat.apache.org/download-70.cgi
