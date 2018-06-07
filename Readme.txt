@@ -9,7 +9,9 @@ HW#_TEAM1.pdf
 
 GitHub Use:
 Use working branch during developement
-Merge working branch into main branch after completion
+Merge working branch into main branch after developement reaches usable state
+This allows main to always have a functional build ready
+This allows working to have any in between developement work
 
 
 Folder Use:
@@ -17,8 +19,11 @@ This folder is designed to hold ONLY NECESSARY project file
 Keep each project in it's own folder
 Document any and all steps needed to use each project
 Document all third party software needed to use each project
-Provide links and full descriptions of third party softwares, to ensure all members can build the project
-
+Provide links and full descriptions of third party softwares
+	this ensures all members can build the project
+Make sure workspace is useable
+	this allows easily builds from github
+	this will increase simplicity
 
 Keep large files out of the folder including:
 	Installation executables
