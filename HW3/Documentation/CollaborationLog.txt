@@ -1,0 +1,7 @@
+Phase 1 Development
+	06-09-2018
+		Initial Webex Meeting
+		https://www.tutorialspoint.com/java_xml/java_sax_modify_document.htm
+		
+Phase 2 Development
+Phase 3 Development
