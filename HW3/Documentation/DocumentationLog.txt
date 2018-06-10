@@ -3,5 +3,10 @@ Documentation Log
 Refactors
 
 Additions
+6/10/2018: New source file XMLwriter1.0
+  Description: The program writes to an XML document with the following Fact attributes
+    -Fact-text
+    -author
+    -type
 
 Reductions
